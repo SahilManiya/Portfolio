@@ -1,0 +1,285 @@
+:root{
+    --comman-color: #1fb6fc;
+    --light-color: white;
+    --dark-color: black; 
+    --heading-color:#2a3a60;
+    --btn-1: #bc6ff1 ;
+    --menu-color: rgba(255, 255, 255, 0.89);
+    --btn-bg: rgb(241, 217, 255);
+    --expert-btn:#ae34f5;
+    --btn-bg-2-hover: #83d7fd;
+    --bg-hover: #eaf5fa;
+    --bg-color: rgb(245, 244, 244);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mulish{
+    font-family: 'Mulish', sans-serif;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.heading-size{
+    font-size: 40px;
+    color: var(--heading-color);
+    font-weight: 400;
+}
+.w-35{
+    width: 35%;
+}
+.w-65{
+    width: 65%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-0{
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+    color: var(--light-color);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all linear 0.2s;
+}
+.btn-0:hover{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 50px !important;
+    color: var(--light-color);
+}
+.btn-1,.btn-1:hover{
+    background-color: var(--btn-1);
+}
+.btn-2,.btn-2:hover{
+    background-color: var(--comman-color) !important;
+}
+.p-font{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.padding-top{
+    padding-top: 100px;
+}
+.menu-color{
+    color: var(--menu-color);
+}
+.comman-color{
+    color: #1fb6fc;
+}
+.comman-bg{
+    background-color: #1fb6fc;
+}
+/*header*/
+header nav ul li .menu{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+header{
+    width: 100%;
+    z-index: 9;
+}
+header .logo h3 a:hover{
+    color: var(--dark-color) !important;
+}
+header nav ul li:nth-child(1):hover,header nav ul li:nth-child(2):hover,header nav ul li:nth-child(3):hover,header nav ul li:nth-child(5):hover,header nav ul li:nth-child(6):hover,header nav ul li:nth-child(7):hover{
+    border-bottom: 2px solid var(--light-color);
+}
+header nav ul li:nth-child(1),header nav ul li:nth-child(2),header nav ul li:nth-child(3),header nav ul li:nth-child(5),header nav ul li:nth-child(6),header nav ul li:nth-child(7){
+    margin: 0 10px;
+    transition: all linear 0.2s;
+    border-bottom: 2px solid transparent;
+}
+header nav ul li:nth-child(1){
+    width: 58px;
+} 
+header nav ul li:nth-child(2){
+    width: 90px;
+} 
+header nav ul li:nth-child(3){
+    width: 82px;
+} 
+header nav ul li:nth-child(4){
+    width: 72px;
+    border-bottom: 2px solid var(--light-color);
+} 
+header nav ul li:nth-child(5){
+    width: 60px;
+} 
+header nav ul li:nth-child(6){
+    width: 54px;
+} 
+header nav ul li:nth-child(7){
+    width: 104px;
+}
+/*banner*/
+.banner{
+    background-image: linear-gradient(90deg ,rgb(111, 87, 245),rgb(153, 129, 241));
+    width: 100%;
+    height: 600px;
+}
+.banner::before{
+    position: absolute;
+    content: '';
+    top: -120px;
+    left: -145px;
+    background-color: rgb(127, 105, 252);
+    height: 520px;
+    width: 500px;
+    border-radius: 50%;
+}
+.banner .banner-content{
+    position: absolute;
+    left: 50%;
+}
+.banner .banner-content a{
+    transition: all linear 0.2s;
+}
+.banner .banner-content a:hover{
+    color: var(--comman-color) !important;
+}
+.banner .banner-content a,.banner .banner-content span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: -58px 0 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.banner .banner-content i{
+    font-size: 11px;
+}
+/*price*/
+.price{
+    margin: 100px 0;
+}
+.price .price-content{
+    width: 100%;
+    height: 525px;
+    transition: all linear 0.2s;
+    margin-top: 50px;
+}
+.price-title span{
+    color: var(--comman-color);
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.price-title p{
+    padding: 10px 202px 50px 202px;
+    letter-spacing: 0;
+}
+.price-content:hover{
+    box-shadow: 5px 10px 30px -25px grey;
+}
+.price .price-content .price-head h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.price .price-content .price-head span{
+    color: #aebbdb;
+    font-size: 24px;
+}
+.price .price-content span{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.price .price-content i{
+    font-size: 15px;
+}
+.price .price-content h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+.price .price-content ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.price-content button{
+    margin: 10px 45px;
+}
+/*email*/
+.email h3{
+    font-size: 27px;
+    padding: 65px 0 0 44px;
+}
+.email p{
+    padding: 0 0 0 44px;
+}
+.email input{
+    background-color: transparent;
+    width: 420px;
+    border: transparent;
+    border-bottom: 2px solid var(--light-color);
+    margin: 100px 0 ;
+    padding: 10px 0;
+}
+.email input::placeholder{
+    color: var(--light-color);
+    font-size: 17px;
+}
+.email i{
+    font-size: 25px;
+}
+/*footer*/
+footer{
+    margin: 100px 0 0 0;
+}
+.w-5{
+    width: 20%;
+}
+footer .footer-1 i{
+    border: 1px solid var(--comman-color);
+    border-radius: 5px;
+}
+footer .footer-1 .footer-1-icon .fa-facebook-f{
+    padding: 8px 11px;
+}
+footer .footer-1 .footer-1-icon .fa-instagram{
+    padding: 8px 10px;
+}
+footer .footer-2 ul li a i{
+    font-size: 15px;
+}
+footer .footer-2 ul li a{
+    transition: all linear 0.2s;
+    display: inline-block !important;
+}
+footer .footer-2 ul li a:hover{
+    color: var(--comman-color) !important;
+}
+footer .footer-3 .footer-3-image img{
+    width: 120px;
+    height: 50px;
+    display: block;
+}
+footer .footer-3 .footer-3-content a i{
+    font-size: 10px;
+}
+footer .footer-3 .footer-3-content a{
+    font-size: 11px;
+}
+footer .footer-3 .footer-3-content a h5{
+    line-height: 23px;
+    transition: all linear 0.2s;
+}
+footer .footer-3 .footer-3-content a h5:hover{
+    color: var(--comman-color) !important;
+}
+footer .footer-4 .footer-4-content{
+    font-size: 15px;
+}
+.bottom{
+    background-image: linear-gradient(90deg ,rgb(111, 87, 245),rgb(153, 129, 241));
+    width: 100%;
+    margin-top: 100px;
+}
+.bottom p{
+    font-size: 13px;
+    color:  rgba(255,255,255,.5);
+    padding: 50px 0 35px 0;
+}

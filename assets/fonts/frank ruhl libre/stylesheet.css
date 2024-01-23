@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Light.woff2') format('woff2'),
+        url('FrankRuhlLibre-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Bold.woff2') format('woff2'),
+        url('FrankRuhlLibre-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Medium.woff2') format('woff2'),
+        url('FrankRuhlLibre-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-ExtraBold.woff2') format('woff2'),
+        url('FrankRuhlLibre-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Black.woff2') format('woff2'),
+        url('FrankRuhlLibre-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Regular.woff2') format('woff2'),
+        url('FrankRuhlLibre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-SemiBold.woff2') format('woff2'),
+        url('FrankRuhlLibre-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

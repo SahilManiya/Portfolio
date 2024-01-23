@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="/fonts/Poppins/stylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="/remixicon/remixicon.css" type="text/css"/>
+        <link rel="stylesheet" href="/css/minwidth.css" type="text/css"/>
+        <link rel="stylesheet" href="/css/bootstrep.css" type="text/css"/>
+    </head>
+    <body>
+        <div style="width: 100%; display: flex; justify-content: end; position: fixed;">
+            <div class="w2" style="width: 3%; margin-right: 30px; ">
+                <div style="display: flex; align-items: center; justify-content: center; z-index: 9; height: 100vh;">
+                    <div class="controls">
+                        <a href="#" class="menu mt-4" onclick="home()">
+                            <i class="ri-home-4-fill"></i>
+                        </a>    
+                        <a href="#" class="menu mt-4" onclick="about()">
+                            <i class="ri-user-3-fill"></i>
+                        </a>
+                        <a href="#" class="menu mt-4" onclick="portfolio()">
+                            <i class="ri-briefcase-fill"></i>
+                        </a>
+                        <a href="#" class="menu mt-4" onclick="contact()">
+                            <i class="ri-mail-open-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div>
+            <div class="w1" style="width: 97%;" id="homepage">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="left d-flex justify-content-center" style="z-index: -1;">
+                            <div class="h-shape "></div>
+                            <div class="image d-flex align-items-center">
+                                <img src="/images/profile.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="right d-flex align-items-center">
+                            <div style="width: 100%; height: 200px;">
+                                <div class="content">
+                                    <h1 class="text-light">Hi, I'm <span>Sahil Maniya.</span> A Web Developer.</h1>
+                                    <p class="text-light">I'm a Web Developer, I love to create beautiful and functional websites. 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero? Lorem ipsum dolor
+                                        sit amet consectetur adipisicing elit. Neque blanditiis sed aut!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class = "aboutme display-none" id="aboutme">
+                
+                    <div class="about-header d-flex justify-content-center pt-5">
+                        <h1>ABOUT <span>ME</span></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about-content">
+                                <h2>INFORMATION ABOUT ME</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore
+                                    nihil obcaecati consequatur. Debitis error doloremque, vero eos vel
+                                    nemo eius voluptatem dicta tenetur modi.</p>
+                                <p style="margin-top: 40px;">La musica delectus dolore fugiat exercitationem a, ipsum quidem quo enim 
+                                    natus accusamus labore dolores nam. Unde. Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Harum non necessitatibus deleniti eum soluta.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div style="width: 80%;">
+                                    <div class="box">
+                                        <h5>HTML5</h5>
+                                        <div class="position-relative skill">
+                                            <span class=" skills d-flex justify-content-center align-items-center">90%</span>
+                                        </div>
+                                    </div>
+                                    <div class="box2">
+                                        <h5>CSS</h5>
+                                        <div class="position-relative skill">
+                                            <span class=" skills d-flex justify-content-center align-items-center">90%</span>
+                                        </div>
+                                    </div>
+                                    <div class="box3">
+                                        <h5>BOOTSTRAP</h5>
+                                        <div class="position-relative skill">
+                                            <span class=" skills d-flex justify-content-center align-items-center">92%</span>
+                                        </div>
+                                    </div>
+                                    <div class="box4">
+                                        <h5>JQUERY</h5>
+                                        <div class="position-relative skill">
+                                            <span class=" skills d-flex justify-content-center align-items-center">85%</span>
+                                        </div>
+                                    </div>
+                                    <div class="box4">
+                                        <h5>WORDPRESS</h5>
+                                        <div class="position-relative skill">
+                                            <span class=" skills d-flex justify-content-center align-items-center">85%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <div>
+            <div class="display-none portfoliopage" id="portfoliopage">
+                <div class="container">
+                    <div class="portfolio-header pt-5">
+                        <h1 class="text-light">MY <span>PORTFOLIO</span></h1>
+                        <p>Cheak Out Someone My Works</p>
+                    </div>
+                </div>
+                <div style="width: 100%; " class="d-flex justify-content-center">
+                    <div class="portfolio-area">
+                        <div class="row">
+                            <div class=" col-xxl-4 col-xl-6">
+                                <div class="portfolio-box position-relative">
+                                    <img src="/images/bootstrep.png" width="100%" height="100%">
+                                    <div class="portfolio-layer d-flex justify-content-center align-items-center flex-column">
+                                        <div class="portfolio-header">
+                                            <h3 class="text-light">BOOTSTRAP</h3>
+                                        </div>
+                                        <div class="portfolio-icone d-flex">
+                                            <div class="view">
+                                                <a href="/images/bootstrep.png" target="_blank" class="m-2" title="View"><i class="ri-camera-lens-fill "></i></a>
+                                            </div>
+                                            <div class="explore">
+                                                <a href="/bootstrap" target="_blank" class="m-2" title="Explore"><i class="ri-eye-2-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-xxl-4 col-xl-6">
+                                <div class="portfolio-box position-relative">
+                                    <img src="/images/bootstrep2.png" width="100%" height="100%">
+                                    <div class="portfolio-layer d-flex justify-content-center align-items-center flex-column">
+                                        <div class="portfolio-header">
+                                            <h3 class="text-light">BOOTSTRAP</h3>
+                                        </div>
+                                        <div class="portfolio-icone d-flex">
+                                            <div class="view">
+                                                <a href="/images/bootstrep2.png" target="_blank" class="m-2" title="View"><i class="ri-camera-lens-fill "></i></a>
+                                            </div>
+                                            <div class="explore">
+                                                <a href="/bootstrap2" target="_blank" class="m-2" title="Explore"><i class="ri-eye-2-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-xxl-4 col-xl-6">
+                                <div class="portfolio-box position-relative">
+                                    <img src="/images/bootstrep3.png" width="100%" height="100%">
+                                    <div class="portfolio-layer d-flex justify-content-center align-items-center flex-column">
+                                        <div class="portfolio-header">
+                                            <h3 class="text-light">BOOTSTRAP</h3>
+                                        </div>
+                                        <div class="portfolio-icone d-flex">
+                                            <div class="view">
+                                                <a  href="/images/bootstrep3.png" target="_blank" class="m-2" title="View"><i class="ri-camera-lens-fill "></i></a>
+                                            </div>
+                                            <div class="explore">
+                                                <a href="/bootstrap3" target="_blank" class="m-2" title="Explore"><i class="ri-eye-2-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-xxl-4 col-xl-6">
+                                <div class="portfolio-box position-relative">
+                                    <img src="/images/j_query.JPG" width="100%" height="100%">
+                                    <div class="portfolio-layer d-flex justify-content-center align-items-center flex-column">
+                                        <div class="portfolio-header">
+                                            <h3 class="text-light">J-QUERY</h3>
+                                        </div>
+                                        <div class="portfolio-icone d-flex">
+                                            <div class="view">
+                                                <a  href="/images/j_query.JPG" target="_blank" class="m-2" title="View"><i class="ri-camera-lens-fill "></i></a>
+                                            </div>
+                                            <div class="explore">
+                                                <a href="/j_query" target="_blank" class="m-2" title="Explore"><i class="ri-eye-2-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-xxl-4 col-xl-6">
+                                <div class="portfolio-box position-relative">
+                                    <img src="/images/sass.png" width="100%" height="100%">
+                                    <div class="portfolio-layer d-flex justify-content-center align-items-center flex-column">
+                                        <div class="portfolio-header">
+                                            <h3 class="text-light">SASS</h3>
+                                        </div>
+                                        <div class="portfolio-icone d-flex">
+                                            <div class="view">
+                                                <a  href="/images/sass.png" target="_blank" class="m-2" title="View"><i class="ri-camera-lens-fill "></i></a>
+                                            </div>
+                                            <div class="explore">
+                                                <a href="/sass" target="_blank" class="m-2" title="Explore"><i class="ri-eye-2-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-xxl-4 col-xl-6">
+                                <div class="portfolio-box position-relative">
+                                    <img src="/images/css.png" width="100%" height="100%">
+                                    <div class="portfolio-layer d-flex justify-content-center align-items-center flex-column">
+                                        <div class="portfolio-header">
+                                            <h3 class="text-light">CSS</h3>
+                                        </div>
+                                        <div class="portfolio-icone d-flex">
+                                            <div class="view">
+                                                <a href="/images/css.png" target="_blank" class="m-2" title="View"><i class="ri-camera-lens-fill "></i></a>
+                                            </div>
+                                            <div class="explore">
+                                                <a href="/colorlib" target="_blank" class="m-2" title="Explore"><i class="ri-eye-2-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="display-none contactpage" id="contactpage">
+                <div class="contact-header d-flex justify-content-center pt-5">
+                    <h1>CONTACT <span>ME</span></h1>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script>
+        var homepage = document.getElementById('homepage');
+        var aboutme = document.getElementById('aboutme');
+        var box = document.getElementById('box');
+        var skill = document.getElementById('skill');
+        var portfoliopage = document.getElementById('portfoliopage');
+        var contactpage = document.getElementById('contactpage');
+
+        function home(){
+            homepage.classList.remove('display-none');
+            aboutme.classList.add('display-none');
+            portfoliopage.classList.add('display-none');
+            contactpage.classList.add('display-none');
+        }
+        function about(){
+            aboutme.classList.remove('display-none');
+            homepage.classList.add('display-none');
+            portfoliopage.classList.add('display-none');
+            contactpage.classList.add('display-none');
+        }
+        function portfolio(){
+            portfoliopage.classList.remove('display-none');
+            homepage.classList.add('display-none');
+            aboutme.classList.add('display-none');
+            contactpage.classList.add('display-none');
+        }
+        function contact(){
+            contactpage.classList.remove('display-none');
+            homepage.classList.add('display-none');
+            portfoliopage.classList.add('display-none');
+            aboutme.classList.add('display-none');
+        }
+    </script>
+</html>

@@ -1,0 +1,315 @@
+:root{
+    --menu-color: #27AE60;
+    --menu-color2 : #454e56;
+    --shadow-color :rgba(0,0,0,.3);
+    --content-color : #dbe1e8;
+    --light-color: white;
+    --dark-color: black;
+    --text-color: rgba(32, 32, 32, 0.795);
+    --dark-menu: #13a456;
+    --border-color: #2a2e35;
+    --border-color-2: #555555;
+    --comman-color : #191d2b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--comman-color);
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--comman-color);
+    position: relative;
+}
+.left .h-shape{
+    width: 70%;
+    height: 100vh;
+    background-color: var(--menu-color);
+    clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.image img{
+    width: 75%;
+    height: 93%;
+    border-radius: 20px;
+}
+.left .image{
+    width: 100%;
+    z-index: 9;
+    margin-left: 80px;
+}
+.right{ 
+    background-color: var(--comman-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content h1 span{
+    color: var(--menu-color);
+}
+.content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+.controls .menu{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--menu-color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 15px var(--shadow-color);
+}
+.background-color{
+    background-color: var(--menu-color);
+}
+.controls .menu:focus{
+    background-color: var(--menu-color);
+}
+.controls i{
+    font-size: 22px;
+    color: var(--light-color);
+}
+.content p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content{
+    padding-right: 200px;
+}
+
+/* ABOUT ME START  */
+
+.aboutme{
+    width: 100%;
+    height: 100vh;
+}
+.aboutme h1 span ,.portfolio-header h1 span,.contact-header h1 span{
+    color: var(--menu-color);
+}
+.aboutme h1,.portfolio-header h1{
+    color: var(--light-color);
+    font-size: 55px;
+    font-weight: 700;
+}
+.about-content{
+    color: var(--light-color);
+    padding: 100px 55px 0 250px;
+}
+.about-content h2{
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.about-content p {
+    color: var(--content-color);
+    font-size: 18px;
+    line-height: 32px;
+    word-spacing: 1px;
+}
+.aboutme .box,.aboutme .box2,.aboutme .box3,.aboutme .box4{
+    border: 1px solid var(--border-color);
+    width: 100%;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 85px;
+    padding: 20px;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+}
+.aboutme .box2 ,.aboutme .box3,.aboutme .box4{
+    margin-top: 20px;
+}
+.aboutme .box:hover,.aboutme .box2:hover,.aboutme .box3:hover,.aboutme .box4:hover{
+    border: 1px solid var(--menu-color);
+    transform: translate(0 , -5px);
+    box-shadow: 0 3px 15px var(--shadow-color);
+}
+.box .skill ,.box2 .skill,.box3 .skill,.box4 .skill{
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    width: 90%; 
+    height: 5px;
+}
+
+.box:hover .skill,.box2:hover .skill,.box3:hover .skill,.box4:hover .skill{
+    opacity: 1;
+}
+.aboutme .box h5,.aboutme .box2 h5,.aboutme .box3 h5,.aboutme .box4 h5{
+    color: var(--content-color);
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+}
+.aboutme .box h5::before,.aboutme .box2 h5::before,.aboutme .box3 h5::before,.aboutme .box4 h5::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--menu-color2);
+    bottom: -15px;
+    left: 0;
+}
+.aboutme .box h5::after,.aboutme .box2 h5::after,.aboutme .box3 h5::after,.aboutme .box4 h5::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: var(--menu-color);
+    bottom: -15px;
+    left: 0;
+}
+.aboutme .box h5::after,.aboutme .box2 h5::after{
+    width: 90%;
+}
+.aboutme .box3 h5::after{
+    width: 92%;
+}
+.aboutme .box4 h5::after{
+    width: 85%;
+}
+.aboutme .box .skills,.aboutme .box2 .skills,.aboutme .box3 .skills,.aboutme .box4 .skills{
+    width: 35px;
+    height: 22px;
+    background-color: var(--light-color);
+    position: absolute;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: 10px;
+}
+.aboutme .box .skills,.aboutme .box2 .skills{
+    right: -3%;
+}
+.aboutme .box3 .skills{
+    right: -6%;
+}
+.aboutme .box4 .skills{
+    right: 2%;
+}
+
+
+/* PORTFOLIO  */
+
+.portfoliopage{
+    width: 100%;
+    height: 100vh;
+}
+.portfolio-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio-header h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.portfolio-header p{
+    color: var(--content-color);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.portfolio-area{
+    width: 90%;
+    padding: 40px 130px;
+}
+.portfoliopage .portfolio-box{
+    width : 100%;
+    height: 300px;
+    margin: 13px 0;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px var(--shadow-color);
+}
+.portfolio-box img{
+    border-radius: 20px;
+}
+.portfolio-layer{
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    background-color: var(--menu-color);
+    transform: scale(0.1);
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    transition: all linear 0.2s;
+}
+.portfolio-box:hover .portfolio-layer{
+    visibility: visible;
+    transform: scale(1);
+}
+.portfolio-box .portfolio-icone .view a,.portfolio-box .portfolio-icone .explore a{
+    width: 50px ;
+    height: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--dark-color);
+    transition: all linear 0.2s;
+}
+.portfolio-box .portfolio-icone a:hover{
+    background-color: var(--light-color);
+}
+.portfolio-box .portfolio-icone a:hover i{
+    color: var(--dark-color);
+}
+.portfolio-box .portfolio-icone .view i,.portfolio-box .portfolio-icone .explore i{
+    color: var(--light-color);
+    font-size: 28px;
+}
+
+/* CONTACT */
+.contactpage{
+    width: 100%;
+    height: 100vh;
+}
+.contactpage .contact-header h1{
+    color: var(--light-color);
+    font-size: 55px;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+}
+.contactpage .contact-header h1::after{
+    position: absolute;
+    font-size: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: 'CONTACT';
+    color: var(--border-color);
+    top: 35%;
+    letter-spacing: 3px;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    z-index: -1;
+}
+
+
+
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}

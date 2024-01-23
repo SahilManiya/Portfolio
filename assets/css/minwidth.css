@@ -1,0 +1,28 @@
+@media (max-width:992px){
+    .aboutme .box,.aboutme .box2,.aboutme .box3,.aboutme .box4{
+        margin-left: 100px;
+    }
+    .about-content{
+        padding: 100px 0 0 100px !important;
+    }
+    .portfolio-area{
+        padding: 40px 50px !important;
+    }
+}
+@media (max-width:1200px){
+    .about-content{
+        padding: 100px 0 0 100px !important;
+    }
+    .image img{
+        height: 800px !important;
+    }
+    .content{
+        margin-left: 50px;
+    }
+}
+@media(min-width:992px){
+    .aboutme .box{
+        margin-top: 100px;
+    }
+    
+}
