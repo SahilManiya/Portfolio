@@ -19,6 +19,12 @@
     .content{
         margin-left: 50px;
     }
+    .strengths-body-p{
+        padding: 100px 0 0 100px !important;
+    }
+    .strengths-body-p2{
+        padding: 100px 0 0 100px !important;
+    }
 }
 @media(min-width:992px){
     .aboutme .box{

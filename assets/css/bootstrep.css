@@ -101,6 +101,44 @@ a{
     width: 100%;
     height: 100vh;
 }
+.aboutme .about-header{
+    padding: 90px 0 20px 0;
+}
+.aboutme .about-header h1{
+    position: relative;
+}
+.aboutme .about-header h1::after{
+    position: absolute;
+    font-size: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: 'MY';
+    color: var(--border-color);
+    top: -75%;
+    letter-spacing: 3px;
+    left: 0%;
+    height: 20px;
+    /* width: 20px; */
+    z-index: -1;
+}
+.aboutme .about-header h1::before{
+    position: absolute;
+    font-size: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: 'STATS';
+    color: var(--border-color);
+    top: 140%;
+    letter-spacing: 3px;
+    left: 0;
+    height: 20px;
+    /* width: 20px; */
+    z-index: -1;
+}
 .aboutme h1 span ,.portfolio-header h1 span,.contact-header h1 span{
     color: var(--menu-color);
 }
@@ -202,6 +240,70 @@ a{
 .aboutme .box4 .skills{
     right: 2%;
 }
+.strengths{
+    margin: 150px 0;
+}
+.strengths .strengths-header h4{
+    position: relative;
+}
+.strengths .strengths-header h4::after{
+    position: absolute;
+    content: '';
+    top: -40px;
+    left: -95px;
+    background-color: var(--border-color);
+    height: 1px;
+    width: 350px;
+}
+.strengths .strengths-body-p{
+    padding: 100px 55px 0 250px;
+}
+.strengths .strengths-body-p2{
+    padding: 100px 200px 0 0;
+}
+.strengths .strengths-body{
+    height: 100vh; 
+    width: 100%; 
+}
+.strengths .strengths-body .strengths-icon{
+    width: 50px;
+    height: 50px;
+    background-color: var(--menu-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.strengths .strengths-body .strengths-icon i{
+    font-size: 25px;
+}
+.strengths .strengths-body .strengths-icon::after{
+    position: absolute;
+    content: '';
+    top: 50px;
+    left: 25px;
+    background-color: var(--border-color);
+    height: 100px;
+    width: 1px;
+}
+.strengths .strengths-body .strengths-content{
+    width: 100%; 
+    height: 145px;
+    /* background-color: red;  */
+    margin: 10px 0 0 10px;
+}
+.strengths .strengths-body .strengths-content h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.strengths .strengths-body .strengths-content p{
+    color: #b2becd;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    margin: 10px 0 0 0 ;
+}
 
 
 /* PORTFOLIO  */
@@ -216,6 +318,40 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.portfoliopage .portfolio-header h1{
+    position: relative;
+    padding: 90px 0 20px 0;
+}
+.portfoliopage .portfolio-header h1::after{
+    position: absolute;
+    content: 'MY';
+    font-size: 90px;
+    color:var(--border-color);
+    width: 100%;
+    top: 25%;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0%;
+    height: 20px;
+    z-index: -1;
+}
+.portfoliopage .portfolio-header h1::before{
+    position: absolute;
+    content: 'WORK';
+    font-size: 90px;
+    color:var(--border-color);
+    width: 100%;
+    bottom: -15%;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0%;
+    height: 20px;
+    z-index: -1;
 }
 .portfolio-header h3{
     font-size: 25px;
@@ -304,7 +440,13 @@ a{
     width: 20px;
     z-index: -1;
 }
-
+.contactpage .contact-body{
+    color: var(--light-color);
+    padding: 100px 55px 0 250px;
+    width: 100%; 
+    height: 400px;
+    border: 1px solid red;
+}
 
 
 .display-none{
