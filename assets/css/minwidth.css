@@ -9,7 +9,19 @@
         padding: 40px 50px !important;
     }
 }
+@media (max-width:1400px){
+    .contactpage .contact-body-p{
+        padding: 100px 0 0 100px !important;
+    }
+    .contactpage .contact-body-p2{
+        padding: 100px 0 0 0 !important;
+    }
+    
+}
 @media (max-width:1200px){
+    .right{
+        padding: 0 0 0 50px !important;
+    }
     .about-content{
         padding: 100px 0 0 100px !important;
     }
@@ -23,7 +35,27 @@
         padding: 100px 0 0 100px !important;
     }
     .strengths-body-p2{
+        padding: 0 0 0 100px !important;
+    }
+    .contactpage .contact-body-p{
         padding: 100px 0 0 100px !important;
+    }
+    .contactpage .contact-body-p2{
+        padding: 100px 0 0 100px !important;
+    }
+    
+    .left{
+        height: 900px !important;
+    }
+    .img-1::before{
+        height: 900px !important; 
+        top: -4% !important;
+    }
+    .left .h-shape{
+        height: 900px !important;
+    }
+    .left img{
+        height: 900px !important;
     }
 }
 @media(min-width:992px){

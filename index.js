@@ -18,7 +18,9 @@ app.get("/",async(req,res)=>{
         return res.redirect('back'); 
     }
 })
-
+app.get("/home",async(req,res)=>{
+    return res.render('home')
+})
 app.get('/bootstrap',async(req,res)=>{
     try {
         return res.render('bootstrap')
